@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">300 Стрелковцев</string>
+    <string name="hello_world">Вас привествуют диванные войска!\nЗдесь вы получите информацию по ситуации в Новороссии, аналитические материалы и многое другое</string>
+    <string name="action_settings">Настройки</string>
+    <string name="butSettings">Настройки</string>
+    <string name="butNews">Перейти к новостям</string>
+    <string name="butHelpNovoros">Помочь Новороссии</string>
+    <string name="chkShow">Показывать при загрузке</string>
+    <string name="title_activity_news">Новости</string>
+
+</resources>

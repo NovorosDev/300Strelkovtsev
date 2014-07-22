@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/plakat"
+    tools:context="com.itwell.skif.strelkovtsev.src.StartPage" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#000000"
+        android:shadowDx="2.0"
+        android:shadowDy="2.0"
+        android:shadowRadius="1.0"
+        android:textColor="#ffffff"
+        android:text="@string/hello_world" />
+
+    <Button
+        android:id="@+id/butNews"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="38dp"
+        android:onClick="onClickNews"
+        android:shadowColor="#000000"
+        android:shadowDx="2.0"
+        android:shadowDy="2.0"
+        android:shadowRadius="1.0"
+        android:textColor="#ffffff"
+        android:text="@string/butNews" />
+
+    <Button
+        android:id="@+id/butSettings"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/butNews"
+        android:layout_alignRight="@+id/butNews"
+        android:layout_below="@+id/butNews"
+        android:layout_marginTop="24dp"
+        android:onClick="onClickSettings"
+        android:shadowColor="#000000"
+        android:shadowDx="2.0"
+        android:shadowDy="2.0"
+        android:shadowRadius="1.0"
+        android:textColor="#ffffff"
+        android:text="@string/butSettings" />
+
+    <Button
+        android:id="@+id/butHelpNovoros"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/butSettings"
+        android:layout_alignRight="@+id/butSettings"
+        android:layout_below="@+id/butSettings"
+        android:layout_marginTop="29dp"
+        android:onClick="onClickHelpNovoros"
+        android:shadowColor="#000000"
+        android:shadowDx="2.0"
+        android:shadowDy="2.0"
+        android:shadowRadius="1.0"
+        android:textColor="#ffffff"
+        android:text="@string/butHelpNovoros" />
+
+    <CheckBox
+        android:id="@+id/chkShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/butHelpNovoros"
+        android:layout_below="@+id/butHelpNovoros"
+        android:layout_marginTop="28dp"
+        android:shadowColor="#000000"
+        android:shadowDx="2.0"
+        android:shadowDy="2.0"
+        android:shadowRadius="1.0"
+        android:textColor="#ffffff"
+        android:text="@string/chkShow" />
+
+</RelativeLayout>
